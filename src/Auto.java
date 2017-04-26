@@ -1,10 +1,10 @@
 /**
  * Created by cristian on 25/04/17.
  */
-public class autos {
+public class Auto {
 
     private String marca, modelo, color;
-    private int acelerar, frenar;
+    private int valor, acelerar, frenar;
 
     public void setMarca(String marca) {
         this.marca = marca;
@@ -23,8 +23,10 @@ public class autos {
     public void setColor(String color) {
         this.color = color;
     }
-
     public String getColor() {
         return color;
     }
+
+    public void setValor(int valor) { this.valor = valor; }
+    public int getValor() { return valor; }
 }
